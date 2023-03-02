@@ -18,7 +18,7 @@ public class EstebanSalazarExamen1 {
 
         ArrayList<String> ventasRealizadas = new ArrayList<String>();
 
-        for(int i = 1; i <= 1; i++) {
+        for(int i = 1; i <= 10; i++) {
     System.out.println("\nIngrese el número de entradas a comprar:");
     int cantidadEntradas = scanner.nextInt();
 
@@ -79,7 +79,7 @@ public class EstebanSalazarExamen1 {
             String venta = "Venta #" + i + ": " + nombre + " - " + cedula + " - " + nombreLocalidad + " - " + cantidadEntradas + " entradas - " + totalVenta + " colones";
             ventasRealizadas.add(venta);
 
-            if(i == 1) {
+            if(i == 10) {
                 System.out.println("\nHa superado el máximo de solicitudes de ventas");
             }
         }
